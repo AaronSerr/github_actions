@@ -26,4 +26,4 @@ jobs:
         pytest
 
     - name: Run flake8
-      run: py-actions/flake8@v2
+      run: actions/checkout@v3
